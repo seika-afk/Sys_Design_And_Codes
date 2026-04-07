@@ -2,17 +2,17 @@ package jumper
 
 
 type Jumper struct{
-	startPoint   int
-	endPoint     int
+	StartPoint   int
+	EndPoint     int
 
 }
 
 
 
-func (j *Jumper) NewJumper(st int, ed int){	
+func NewJumper(st int, ed int) *Jumper{	
 	return &Jumper{
-		startPoint : st,
-		endPoint   : ed  
+		StartPoint : st,
+		EndPoint   : ed  
 
 	}
 
